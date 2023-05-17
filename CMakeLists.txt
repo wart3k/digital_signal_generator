@@ -14,6 +14,7 @@ set(CMAKE_C_STANDARD                11)
 set(CMAKE_C_STANDARD_REQUIRED       ON)
 set(CMAKE_C_EXTENSIONS              OFF)
 
+set(EXECUTABLE_NAME digital_signal_generator)
 set(HAL_LIBRARY_NAME hal_libraries)
 
 include(FetchContent)
@@ -26,6 +27,5 @@ FetchContent_Declare(
 )
 FetchContent_MakeAvailable(termiWin)
 
-add_executable(digital_signal_generator main.cpp)
-
 add_subdirectory(hal)
+add_subdirectory(app)

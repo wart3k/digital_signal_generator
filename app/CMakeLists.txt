@@ -1,0 +1,8 @@
+set(EXECUTABLE_SOURCE
+        digital_signal_generator.cpp)
+
+add_executable(
+        ${EXECUTABLE_NAME}
+        ${EXECUTABLE_SOURCE}
+)
+
