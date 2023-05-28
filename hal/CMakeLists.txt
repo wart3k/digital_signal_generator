@@ -1,5 +1,5 @@
 set(HAL_LIBRARY_SOURCES
-        "uart.cpp")
+        "uart.cc")
 
 set(HAL_LIBRARY_INCLUDES
         "./")

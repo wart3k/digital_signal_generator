@@ -16,6 +16,7 @@ set(CMAKE_C_EXTENSIONS              OFF)
 
 set(EXECUTABLE_NAME digital_signal_generator)
 set(HAL_LIBRARY_NAME hal_libraries)
+set(FUNCTIONS_LIBRARY_NAME functions_libraries)
 
 include(FetchContent)
 
@@ -29,3 +30,4 @@ FetchContent_MakeAvailable(termiWin)
 
 add_subdirectory(hal)
 add_subdirectory(app)
+add_subdirectory(functions)
