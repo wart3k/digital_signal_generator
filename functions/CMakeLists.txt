@@ -1,5 +1,7 @@
 set(FUNCTIONS_LIBRARY_SOURCES
-        "triangle.cc")
+        "triangle.cc"
+        "sinus.cc"
+        "rectangle.cc")
 
 set(FUNCTIONS_LIBRARY_INCLUDES
         "./")
